@@ -1,0 +1,60 @@
+*{box-sizing: border-box;}
+/*full-width input fields */
+input[type=text],
+input[type=password]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: lightgray;
+	outline: none;
+}
+
+/* Set a style for all buttons */
+button{
+	background-color: green;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	float: right;
+}
+button:hover{
+	opacity: 1;
+}
+
+.container{
+	background-image: linear-gradient(to bottom, purple, blue);
+	max-width: 100%;
+	margin: auto;
+}
+
+/* Add padding to container elements */
+.content{
+	padding: 16px;
+	max-width: 50%;
+	margin: auto;
+	background-color: #12123b;
+	margin-top: 120px;
+	margin-bottom: 120px
+}
+.header{
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
+
+/* Clear floats */
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+@media screen and(max-width: 480px){
+	.container{
+		width: 400px;
+	}
+}
