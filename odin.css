@@ -1,0 +1,53 @@
+html{
+	width: 1100px;
+	margin: auto;
+	background-color: #fff;
+	background-image: url(../odin.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-size: contain;
+}
+img{
+	float: left;
+}
+h1{
+	float: left;
+	margin-right: 250px;
+	color: #d4aa22;
+}
+.site-nav li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+.fix{
+	clear: both;
+}
+.site-nav a{
+	text-decoration: none;
+	color: black;
+}
+h2{
+	color: #d4b03b;
+	font-size: 140%;
+}
+h6{
+	font-size: 72%;
+}
+.content{
+	text-align: center;
+	font-size: 140%;
+}
+button{
+	background-color: #2b998a;
+	color: white;
+	border: none;
+	padding: 9px 25px;
+	margin: 8px 0;
+	cursor: pointer;
+}
+button:hover{
+	opacity: 0.9;
+}
